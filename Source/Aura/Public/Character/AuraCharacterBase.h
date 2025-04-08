@@ -19,6 +19,6 @@ protected:
 
 	// generally used for member variables
 	UPROPERTY(EditAnywhere, Category = "Combat")
-	TObjectPtr<USkeletalMeshComponent> Weapon;	
+	TObjectPtr<USkeletalMeshComponent> Weapon;
 
 };

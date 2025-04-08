@@ -1,0 +1,23 @@
+[33mcommit 4ce5993e21dadae01b68f819bc144ff522b2d3b1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Markku Inkinen <94799551+markkuinkinen@users.noreply.github.com>
+Date:   Tue Apr 8 20:25:25 2025 +0300
+
+    Player/Enemy characters given body/weapon meshes and weapon socket
+
+[33mcommit 1539ddff8314d7c42ff10402df79a7326b0681a2[m
+Author: Markku Inkinen <94799551+markkuinkinen@users.noreply.github.com>
+Date:   Tue Apr 8 19:02:56 2025 +0300
+
+    Player character and Enemy classes added
+
+[33mcommit 4f6db32e99d8175d2933d45da332e9db48ee2360[m
+Author: Markku Inkinen <94799551+markkuinkinen@users.noreply.github.com>
+Date:   Tue Apr 8 18:32:32 2025 +0300
+
+    Main character class created, VS2022 set up
+
+[33mcommit 37c8fbe62c13c76a5802071c08fd757afd21e1b5[m
+Author: Markku Inkinen <94799551+markkuinkinen@users.noreply.github.com>
+Date:   Sun Apr 6 14:48:20 2025 +0300
+
+    Initial project files
