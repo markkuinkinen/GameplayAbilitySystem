@@ -5,8 +5,14 @@
 #include "AbilitySystemComponent.h"
 #include "Net/UnrealNetwork.h"
 
+
+
 UAuraAttributeSet::UAuraAttributeSet()
 {
+	InitHP(100.f);
+	InitMaxHP(150.f);
+	InitMana(100.f);
+	InitMaxMana(150.f);
 }
 
 void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
