@@ -12,6 +12,7 @@ class UAttributeSet;
 /**
  * Gets data and broadcasts it to any widgets
  */
+
 UCLASS()
 class AURA_API UAuraWidgetController : public UObject
 {
