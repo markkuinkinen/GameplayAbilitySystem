@@ -48,6 +48,8 @@ public:
 
 	virtual void BroadcastInitialValues();
 
+	virtual void BindCallbacksToDependencies();
+
 protected:
 
 	// Variables that we get the data from

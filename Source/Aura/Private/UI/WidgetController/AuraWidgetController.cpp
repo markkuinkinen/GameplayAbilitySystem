@@ -15,3 +15,9 @@ void UAuraWidgetController::BroadcastInitialValues()
 {
 
 }
+
+// left blank for the overlay widget controller to override
+void UAuraWidgetController::BindCallbacksToDependencies()
+{
+
+}
