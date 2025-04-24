@@ -26,6 +26,8 @@ public:
 	UAuraAttributeSet();
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
+	virtual void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue) override;
+
 	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_HP, Category = "Vital Attributes")
 	FGameplayAttributeData HP;
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, HP);

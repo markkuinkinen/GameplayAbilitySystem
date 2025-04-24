@@ -26,6 +26,29 @@ void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 
 }
 
+// whenever an attribute gets changed this function is called before the attribute is actually changed (because pre)
+// really only used for clamping values though
+void UAuraAttributeSet::PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue)
+{
+	Super::PreAttributeChange(Attribute, NewValue);
+
+	if (Attribute == GetHPAttribute())
+	{
+		NewValue = FMath::Clamp(NewValue, 0.f, GetMaxHP());
+	}
+	if (Attribute == GetMaxHPAttribute())
+	{
+	}
+	if (Attribute == GetManaAttribute())
+	{
+		NewValue = FMath::Clamp(NewValue, 0.f, GetMaxMana());
+	}
+	if (Attribute == GetMaxManaAttribute())
+	{
+		
+	}
+}
+
 void UAuraAttributeSet::OnRep_HP(const FGameplayAttributeData& OldHP) const
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, HP, OldHP);
