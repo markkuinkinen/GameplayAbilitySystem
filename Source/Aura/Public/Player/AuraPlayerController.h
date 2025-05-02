@@ -37,6 +37,6 @@ private:
 
 	void CursorTrace();
 
-	TScriptInterface<IEnemyInterface> LastActor;
-	TScriptInterface<IEnemyInterface> ThisActor;
+	IEnemyInterface* LastActor;
+	IEnemyInterface* ThisActor;
 };
