@@ -10,10 +10,6 @@ FAuraGameplayTags FAuraGameplayTags::GameplayTags;
 
 void FAuraGameplayTags::InitialiseNativeGameplayTags()
 {
-	// Vital GameplayTags
-	//GameplayTags.Attributes_Vital_HP = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Attributes.Primary.HP"), FString("Health amount"));
-	//GameplayTags.Attributes_Vital_Mana = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Attributes.Primary.Mana"), FString("Mana amount"));
-
 	// Primary GameplayTags
 	GameplayTags.Attributes_Primary_Strength = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Attributes.Primary.Strength"), FString("Increases physical damage"));
 	GameplayTags.Attributes_Primary_Intelligence = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Attributes.Primary.Intelligence"), FString("Increases magical damage"));

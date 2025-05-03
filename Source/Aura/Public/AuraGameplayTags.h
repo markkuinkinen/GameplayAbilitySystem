@@ -17,10 +17,6 @@ public:
 	static const FAuraGameplayTags& Get() { return GameplayTags; }
 	static void InitialiseNativeGameplayTags();
 
-	// Vital GameplayTags
-	//FGameplayTag Attributes_Vital_HP;
-	//FGameplayTag Attributes_Vital_Mana;
-
 	// Primary GameplayTags
 	FGameplayTag Attributes_Primary_Strength;
 	FGameplayTag Attributes_Primary_Intelligence;
